@@ -17,11 +17,13 @@ contacts.each do |person, data|
   data.each do |key, value|
     if key == :favorite_icecream_flavors
       value.delete_if do |flavor|
-      value == "strawberry"
+      flavor == "strawberry"
     end
   end
+end
   contacts
   end
 end
 
+ 
 
