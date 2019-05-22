@@ -13,11 +13,13 @@ def first_challenge
     }
   }
 
-contacts["Freddy Mercury"].each do |key, value|
+contacts.each do |person, data|
+  data.each do |key, value|
     if key == :favorite_icecream_flavors
-      contacts["Freddy Mercury"].delete_if {|key, value| value == "strawberry"}
+      data.delete_if {|key, value| value == "strawberry"}
     end
-end
+  end
   contacts
+  end
 end
 
