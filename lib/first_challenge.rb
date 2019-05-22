@@ -16,7 +16,7 @@ def first_challenge
  contacts.each do |person, data|
    
    data.do each [key, value]
-   h.delete_if {|key, value| value == "strawberry"
+   h.delete_if {|key, value| value == "strawberry"}
     puts "#{key}""
   contacts
     end
