@@ -32,7 +32,7 @@ end
   #     end
   # end
   #remember to return your newly altered contacts hash!	  #remember to return your newly altered contacts hash!
-  contacts	  contacts
+  # contacts	  contacts
 # end	end
 
 # end
