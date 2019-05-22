@@ -15,10 +15,11 @@ def first_challenge
 
  contacts.each do |person, data|
    
-   data.do each [h, v]
+   data.do each [key, value]
    h.delete_if {|key, value| value == "strawberry"
-  
+    puts "#{key}""
   contacts[:"Freddy Mercury"][favorite_icecream_flavors]
+    end
   end
 end
 
