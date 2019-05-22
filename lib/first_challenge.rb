@@ -17,7 +17,6 @@ def first_challenge
    
    data.do each [key, value]
    h.delete_if {|key, value| value == "strawberry"}
-    puts "#{key}""
   contacts
     end
   end
