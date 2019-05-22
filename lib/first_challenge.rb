@@ -19,7 +19,6 @@ def first_challenge
    h.delete_if {|key, value| value == "strawberry"}
     end
   contacts
-  end
 end
 
 
