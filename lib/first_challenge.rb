@@ -13,8 +13,9 @@ def first_challenge
     }
   }
 
- contacts[:"Freddy Mercury"][:favorite_icecream_flavors]
-  contacts.do each [h, v]
+ contacts.each do |person, data|
+   
+   data.do each [h, v]
    h.delete_if {|key, value| value == "strawberry"
   end
   contacts[:favorite_icecream_flavors]
