@@ -13,10 +13,12 @@ def first_challenge
     }
   }
 
- contacts[:favorite_icecream_flavors]
+ contacts[:"Freddy Mercury"][:favorite_icecream_flavors]
   contacts.do each [h, v]
    h.delete_if {|key, value| value == "strawberry"
-     h.delete_if {|key, value| key >= "b" }   
+  end
+  contacts[:favorite_icecream_flavors]
+end
 
 
   #remember to return your newly altered contacts hash!
