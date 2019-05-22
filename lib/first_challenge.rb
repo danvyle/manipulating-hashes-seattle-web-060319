@@ -18,7 +18,7 @@ def first_challenge
    data.do each [h, v]
    h.delete_if {|key, value| value == "strawberry"
   end
-  contacts[:favorite_icecream_flavors]
+  contacts[:"Freddy Mercury"][favorite_icecream_flavors]
 end
 
 
