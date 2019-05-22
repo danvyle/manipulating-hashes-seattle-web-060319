@@ -13,7 +13,10 @@ def first_challenge
     }
   }
 
-  #your code here
+ contacts[:favorite_icecream_flavors]
+  contacts.do each [h, v]
+   if h[value] == "strawberry"
+     
 
 
   #remember to return your newly altered contacts hash!
